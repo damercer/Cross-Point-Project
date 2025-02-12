@@ -13,7 +13,7 @@ The goal is to evaluate the educational benefits and potential drawbacks of thes
 #
 Analog switch matrix cross point experiment breadboard.
 #
-![Screenshot Prototype PCB](/Red1-Board-final.jpg
+![Screenshot Prototype PCB](/Red1-Board-final.jpg)
 Prototype PCB (Red version)
  
 The idea is to computerize the wiring of the breadboard in an effort to reduce student frustration when building complex experiments. Using four analog 16X8 cross point switches wired together into two 32X8 cross points with a fifth switch matrix interconnecting the two smaller arrays into effectively a single 64X16 array.
