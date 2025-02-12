@@ -1,0 +1,52 @@
+From DigiKey:
+Solder paste 315-NC191LT10-ND:
+https://www.digikey.com/en/products/detail/chip-quik-inc./NC191LT10/11480389?utm_adgroup=&gad_source=1
+CF18JT330KCT-ND RES 330K OHM 5% 1/8W AXIAL X100 $1.68
+CF18JT680KCT-ND RES 680K OHM 5% 1/8W AXIAL X100 $1.68
+CF18JT220RCT-ND RES 220 OHM 5% 1/8W AXIAL  X100 $1.68
+CF18JT470RCT-ND RES 470 OHM 5% 1/8W AXIAL  X100 $1.68
+445-180818-1-ND CAP CER 0.47UF 25V X7R RADIAL X50
+CRE1S0505SC DC DC CONVERTER 5V 1W 811-3196-ND $2.37
+RFM-0505S 5V isolated DC/DC converter
+MCP4822 -E-P Dual Serial DAC 
+MCP6004 -E-P Quad OP-AMP 
+RPC8345-ND #2-56 nylon machine screws	
+RPC7088-ND #2-56 nylon hex nuts
+
+From Addicore:
+10k Ohm White Knob Potentiometer
+https://www.addicore.com/collections/variable-potentiometers/products/10k-ohm-white-knob-potentiometer
+
+
+GS-050 50 tie point power strip
+https://testequipmentusa.com/global-specialties-gs-050-bus-strip-50-tie-points-2-pack/?srsltid=AfmBOoqYwnTtbbMpz2YXtguHqOQdgc8ISB8xP6XhBymY_txFHgstTdrepoo
+
+From Aliexpress:
+RP-2040 Pi Pico boards
+https://www.aliexpress.us/item/3256806917806174.html?
+Color: RP2040 Type-C 4MB or Color: RP2040 Micro Type-C
+
+1-10PCS SYB-170 Mini Solderless Prototype Breadboard
+https://www.aliexpress.us/item/3256806379892335.html?
+
+2-100Pcs CH446Q SMT LQFP-44 8x16 Matrix Analog Switch Array
+https://www.aliexpress.us/item/3256806513688648.html?
+
+5-500Pcs Pogo Pin Connector Pogopin Spring Loaded Through Hole 3mm
+https://www.aliexpress.us/item/2255800849772402.html?
+100Pcs Pogo Pin Connector Pogopin Spring Loaded Contact 3mm
+https://www.aliexpress.us/item/3256807321702895.html?
+
+Single row female header: 1X8
+https://www.aliexpress.us/item/3256803241779203.html?
+https://www.aliexpress.us/item/3256805226022984.html?
+
+Dual row female header: 2X8
+https://www.aliexpress.us/item/3256805948524386.html?
+https://www.aliexpress.us/item/3256804148274564.html?
+
+Dual row right angle female: 2X6
+https://www.aliexpress.us/item/3256806810764627.html?
+https://www.aliexpress.us/item/2255800144094493.html?
+
+

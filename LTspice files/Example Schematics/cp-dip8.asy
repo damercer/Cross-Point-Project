@@ -1,0 +1,37 @@
+Version 4
+SymbolType CELL
+LINE Normal -224 20 -208 20
+LINE Normal -224 -20 -208 -20
+LINE Normal -196 8 -196 -8
+RECTANGLE Normal -224 96 0 -96
+ARC Normal -220 20 -196 -4 -208 20 -196 8
+ARC Normal -220 4 -196 -20 -196 -8 -208 -20
+TEXT -112 32 Center 1 ADI
+WINDOW 0 -240 0 VCenter 2
+WINDOW 3 -113 -3 Center 2
+SYMATTR Prefix X
+SYMATTR Description Generic Symbol for use with subcircuts that you supply.
+PIN -208 96 BOTTOM 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN -144 96 BOTTOM 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN -80 96 BOTTOM 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN -16 96 BOTTOM 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4
+PIN -16 -96 TOP 8
+PINATTR PinName 5
+PINATTR SpiceOrder 5
+PIN -80 -96 TOP 8
+PINATTR PinName 6
+PINATTR SpiceOrder 6
+PIN -144 -96 TOP 8
+PINATTR PinName 7
+PINATTR SpiceOrder 7
+PIN -208 -96 TOP 8
+PINATTR PinName 8
+PINATTR SpiceOrder 8

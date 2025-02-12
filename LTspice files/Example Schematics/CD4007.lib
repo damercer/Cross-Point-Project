@@ -1,0 +1,36 @@
+*-----------------------------------------------------------------------
+*Used in Analog Electronics for CD4007 inverter chip RIT4007N7
+*Note: Properties L=5u W=170u Ad=8500p As=8500p Pd=440u Ps=440u NRD=0.1 NRS=0.1
+.MODEL cd4007-nrit NMOS (LEVEL=7
++VERSION=3.1 CAPMOD=2 MOBMOD=1
++TOX=6E-8 XJ=2.9E-7 NCH=4E15 NSUB=5.33E15 XT=8.66E-8 
++VTH0=1.4 U0= 925 WINT=2.0E-7 LINT=1E-7 
++NGATE=5E20 RSH=200 JS=3.23E-8 JSW=3.23E-8 CJ=6.8E-8 MJ=0.5 PB=0.95
++CJSW=1.26E-10 MJSW=0.5 PBSW=0.95 PCLM=5
++CGSO=3.4E-10 CGDO=3.4E-10 CGBO=5.75E-10)
+*
+*Used in Analog Electronics for CD4007 inverter chip RIT4007P7
+*Note: Properties L=5u W=360u Ad=18000p As=18000p Pd=820u Ps=820u NRS=O.54 NRD=0.54
+.MODEL cd4007-prit  PMOS (LEVEL=7
++VERSION=3.1 CAPMOD=2 MOBMOD=1
++TOX=6E-8 XJ=2.26E-7 NCH=3E15 NSUB=8E14 XT=8.66E-8
++VTH0=-1.65 U0= 225 WINT=1.0E-6 LINT=1E-6
++NGATE=5E20 RSH=800 JS=3.51E-8 JSW=3.51E-8 CJ=5.28E-8 MJ=0.5 PB=0.94
++CJSW=1.19E-10 MJSW=0.5 PBSW=0.94 PCLM=5
++CGSO=4.5E-10 CGDO=4.5E-10 CGBO=5.75E-10)
+*-----------------------------------------------------------------------
+.MODEL cd4007-pmos    PMOS    ( LEVEL   = 1           L=5u    W=100u                
++VTO    = -1.40         KP      = 3.2e-5        GAMMA   = 3.30  
++PHI    = 0.65          LAMBDA  = 9e-2          CBD     = 65e-12
++CBS    = 2e-14         IS      = 1e-15         PB      = 0.87
++CGSO   = 0             CGDO    = 0             CGBO    = 1e-5
++CJ     = 2e-10         MJ      = 0.5           CJSW    = 1e-9
++MJSW   = 0.33          JS      = 1e-8          TOX     = 6.89e-10)
+
+.MODEL cd4007-nmos    NMOS    ( LEVEL   = 1           L=5u    W=17u             
++VTO    = 1.57          Kp      = 2.169e-4      GAMMA   = 4.10  
++PHI    = 0.65          LAMBDA  = 1.5e-2        CBD     = 20e-12
++CBS    = 0             IS      = 1e-15         PB      = 0.87
++CBS    = 2e-14         CGDO    = 88e-8         CGBO    = 0
++CJ     = 2e-10         MJ      = 0.5           CJSW    = 1e-9
++MJSW   = 0.33          JS      = 1e-8          TOX     = 6.5e-8)

@@ -1,0 +1,51 @@
+Reference Value Type
+C1 0.56u Capacitor
+C2 10u Capacitor
+C3 0.56u Capacitor
+C4 0.56u Capacitor
+C5 0.56u Capacitor
+C6 0.56u Capacitor
+C7 10u Capacitor
+C8 10u Capacitor
+
+DC1 RFM-0505S or CRE1S0505SC 5V isolated DC/DC converter
+
+J1, J2, J7, J8 1x8 Pin Female Connector Or single 2x8 for J7,8
+J3, J4 pogo pins through hole 2x17 3mm
+J5, J6 Solderless Power Rail 2 X 5x5 
+
+JpVDD1, JpVDD2, JpVDD3, JpVDD4, JpVDD5 1x3 Pin Male Connector PinHeader
+JVEE1 1x4 Pin Male Connector PinHeader
+PMOD1 2x6 Right Angle Female PinHeader
+
+R1 220 Resistor
+R2 220 Resistor
+R3 220 Resistor
+
+R4 330k Resistor
+R6 330k Resistor
+R8 330k Resistor
+
+R5 680k Resistor
+R7 680k Resistor
+R9 680k Resistor
+
+R12 470 Resistor
+
+RV1 10k Potentiometer
+
+R10 DNP optional 1.2k Resistor
+R11 DNP optional 4.7k Resistor
+
+U1 CH446DS1 LQFP44
+U2 CH446DS1 LQFP44
+U3 CH446DS1 LQFP44
+U4 CH446DS1 LQFP44
+U5 CH446DS1 LQFP44
+U9 Pico MCU_Raspberry Pi RP-2049
+U10 MCP4822 DIP-8
+U11 MCP6004 DIP-14
+
+nylon machine screws RPC8345-ND #2-56	
+nylon hex nuts RPC7088-ND #2-56	
+
