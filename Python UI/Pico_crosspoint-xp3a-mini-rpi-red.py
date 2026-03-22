@@ -1644,6 +1644,11 @@ def MakeBreadboardScreen():
     global CompSpinBoxList_RC, CompSpinBoxList_TL, CompSpinBoxList_BL, CompSpinBoxList_TR, CompSpinBoxList_BR
     global click_loc, breadboard_image, JPcolors, breadboard_canvas
 
+
+ 
+    style = Style() # This accesses the ttk Style object
+    style.configure("Prompt.TEntry", fieldbackground="white", foreground="black")
+    
     if BreadboardStatus.get() == 0:
         try:
             XlabLogo_image = PhotoImage(file='./XLab-logo.png') #
@@ -1826,10 +1831,30 @@ def MakeBreadboardScreen():
         VerifyButton.grid(row=20, column=0, columnspan=2, sticky=W, pady=1)
         PassFailSvBB = Label(matrixwindow,text="")
         PassFailSvBB.grid(row=20, column=2, columnspan=4, sticky=W, pady=1)
-            
+        
+
         if HWRevOne == "Red3":
             TestResButton = Button(matrixwindow, text="Man Test Resistor", style="W17.TButton", command=MakeTestResWindow)
             TestResButton.grid(row=21, column=0, columnspan=2, sticky=W, pady=1)
+
+
+
+
+    # --- TTK CONSISTENT PROMPT BOX ---
+        PromptLabel = Label(matrixwindow, text="User Prompt:", style="A12B.TLabel")
+        PromptLabel.grid(row=22, column=0, columnspan=2, sticky=W, pady=(10, 0))
+
+        global PromptBox
+        # We use Entry (which is ttk.Entry in your script) and apply our custom style
+        PromptBox = Entry(matrixwindow, style="Prompt.TEntry", width=45)
+        PromptBox.grid(row=23, column=0, columnspan=4, sticky=W, padx=5, pady=5)
+        
+        # Bind the 'Enter' key to the handler function
+        PromptBox.bind("<Return>", handle_user_prompt)
+    # end of prompt box
+
+
+
         ############################## 
         ### MIDDLE SIDE OF SCREEN ####
         #### The top part of the middle section is the simulated image of the breadboard
@@ -7709,3 +7734,11 @@ def onResSchClick(event):
     ser.write(SendByt)
 #
     
+# create a chatbox for AI prompting
+def handle_user_prompt(event):
+    global PromptBox
+    user_input = PromptBox.get()
+    if user_input:
+        # This is where you would send the text to your chat logic
+        print(f"User sent: {user_input}") 
+        PromptBox.delete(0, END)
